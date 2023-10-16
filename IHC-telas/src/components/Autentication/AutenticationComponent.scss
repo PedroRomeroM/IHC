@@ -1,0 +1,138 @@
+.MainContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+
+  .LoginContainer {
+    display: flex;
+    width: 25%;
+    height: 60%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      width: auto;
+      font-size: 50px;
+      font-weight: 700;
+    }
+
+    .Username {
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      border: 1px solid #8d8686;
+      width: 80%;
+      height: 4rem;
+
+      img {
+        display: flex;
+        align-items: center;
+        height: 50%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+
+      input {
+        display: flex;
+        background-color: #eaecdd;
+        border: none;
+        width: 80%;
+        height: 90%;
+        font-size: 15px;
+      }
+      input[type="text"]:focus {
+        outline: none;
+      }
+    }
+
+    .Password {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      border: 1px solid #8d8686;
+      width: 80%;
+      height: 4rem;
+
+      img {
+        display: flex;
+        align-items: center;
+        height: 50%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+
+      input {
+        display: flex;
+        background-color: #eaecdd;
+        border: none;
+        width: 80%;
+        height: 90%;
+        font-size: 15px;
+      }
+      input[type="password"]:focus {
+        outline: none;
+      }
+    }
+
+    .checkField {
+      display: flex;
+      align-items: center;
+      width: 60%;
+      margin-top: 2rem;
+      justify-content: space-around;
+      color: #696565;
+      font-size: 15px;
+
+      .checkDivs {
+        display: flex;
+        align-items: center;
+
+        input {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+
+    .Entrar {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      width: 80%;
+      height: 3rem;
+
+      input {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        border: 1px black solid;
+        border-radius: 5px;
+        color: white;
+        font-size: large;
+      }
+
+      .linkNone {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        border: 1px black solid;
+        border-radius: 5px;
+        color: white;
+        font-size: large;
+      }
+    }
+  }
+}
