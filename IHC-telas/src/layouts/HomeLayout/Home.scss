@@ -2,4 +2,18 @@
 .Challenges {
     background-color: #eaecdd;
     height: 100%;
+
+    .setembro {
+        font-family: Roboto;
+        margin-left: 2rem;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    .cardsCont {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 5rem;
+    }
 }

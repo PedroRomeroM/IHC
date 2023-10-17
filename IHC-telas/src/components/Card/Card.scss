@@ -1,0 +1,52 @@
+.CardContainer {
+  display: flex;
+  margin-left: 2rem;
+  width: 17rem;
+  height: 16rem;
+  border-radius: 5px;
+  border: 1px solid #646464;
+  background: #eaecdd;
+  flex-direction: column;
+  padding: 1rem;
+  padding-left: 2rem;
+  margin-right: 2rem;
+  font-family: Roboto;
+  justify-content: space-between;
+
+  .CardName {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+
+    h3 {
+      width: auto;
+      display: flex;
+      font-weight: 400;
+      font-size: large;
+    }
+  }
+
+  .CardTitle {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+        font-size: large;
+        font-weight: 400;
+    }
+
+    img {
+        height: 3rem;
+        border-radius: 50%;
+        margin-right: 1rem;
+    }
+  }
+}
