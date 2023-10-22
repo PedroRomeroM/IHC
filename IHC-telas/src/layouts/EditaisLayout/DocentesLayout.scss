@@ -1,0 +1,39 @@
+
+.coord {
+    background-color: #eaecdd;
+    height: 130%;
+    padding: 0 5rem;
+    
+
+    .setembro {
+        font-family: Roboto;
+        margin-left: 2rem;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    .cardsCont {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 5rem;
+        flex-direction: column;
+        font-family: Roboto;
+
+        .cardsRow {
+            display: flex;
+            margin-top: 3rem;
+        }
+
+        .coordenacao {
+            display: flex;
+            margin-top: 3rem;
+            margin-left: 1rem;
+            align-items: center;
+
+            .left {
+                margin-left: 1rem;
+            }
+        }
+    }
+}

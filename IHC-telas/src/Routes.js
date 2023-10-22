@@ -4,6 +4,8 @@ import AutenticationLayout from './layouts/AutenticationLayout';
 import About from './layouts/AboutLayout/AboutLayout';
 import EmentasLayout from './layouts/EmentasLayout';
 import Coordenacao from './layouts/CoordenacaoLayout';
+import EditaisLayout from './layouts/EditaisLayout';
+import DocentesLayout from './layouts/DocentesLayout';
 
 
 const AppRouter = () => {
@@ -15,6 +17,8 @@ const AppRouter = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/ementas" element={<EmentasLayout />} />
                 <Route path="/coordenacaoLayout" element={<Coordenacao />} />
+                <Route path="/editais" element={<EditaisLayout />} />
+                <Route path="/docentes" element={<DocentesLayout />} />
             </Routes>
         </Router>
     );

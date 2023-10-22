@@ -1,0 +1,44 @@
+.DocenteContainer {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  .tablecolumn1 {
+    padding-left: 2rem;
+    border: 1px solid black;
+    width: 45%;
+    height: 4rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    svg {
+        margin-right: 2rem;
+    }
+  }
+
+  .tablecolumn2 {
+    border: 1px solid black;
+    width: 30%;
+    height: 4rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tablecolumn3 {
+    border: 1px solid black;
+    width: 20%;
+    height: 4rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+  }
+}
