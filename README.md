@@ -10,11 +10,9 @@ Antes de começar, certifique-se de ter instalado o Node.js e o npm na sua máqu
 
 1. Clone este repositório: git clone https://github.com/PedroRomeroM/IHC.gitt
 
-2. Navegue até o diretório do projeto:
+2. Navegue até o diretório do projeto:  cd IHC-telas
 
-3. cd IHC-telas
-
-4. Instale as dependências do projeto: npm install
+3. Instale as dependências do projeto: npm install
 
 ## Uso
 
