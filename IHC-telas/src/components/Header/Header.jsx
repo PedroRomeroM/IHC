@@ -10,7 +10,7 @@ const Header = () => {
                 </Link>
                 <Link className='HeaderOption' to="/home"> Página Inicial</Link>
                 <Link className='HeaderOption' to="/about"> Sobre o Curso</Link>
-                <Link className='HeaderOption'> Coordenação </Link>
+                <Link className='HeaderOption' to="/coordenacaoLayout"> Coordenação </Link>
                 <Link className='HeaderOption'> Secretaria </Link>
                 <Link className='HeaderOption' to="/ementas"> Ementas </Link>
                 <Link className='HeaderOption'> Editais </Link>

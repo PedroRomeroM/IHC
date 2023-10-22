@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="Challenges">
       <Header />
-      <Filtros />
+      <Filtros variant="init"/>
       <h1 className="setembro">Setembro</h1>
       <div className="cardsCont">
         <Card picture="true"/>
