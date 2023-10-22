@@ -1,0 +1,52 @@
+.SobreContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    background-color: #eaecdd;
+
+    justify-content: space-between;
+
+    .textBox {
+        width: 40%;
+        padding: 2rem;
+        border: 1px solid black;
+        height: 25rem;
+        
+        h2 { 
+            padding-left: 2rem;
+            padding-bottom: 1rem;
+        }
+
+        .botton {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 4rem;
+
+            .vagas {
+                color: rgb(70, 70, 70);
+            }
+            .duracao {
+                color: rgb(70, 70, 70);
+            }
+        }
+    }
+
+    .aboutImage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            height: 25rem;
+            margin-right: 15rem;
+        }
+
+        .endereco { 
+            margin-top: 2rem;
+            color: rgb(70, 70, 70);
+            width: 22rem;   
+            text-align: center; 
+            margin-right: 15rem;
+        }
+    }
+}

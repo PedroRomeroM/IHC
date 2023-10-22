@@ -51,7 +51,6 @@
     img {
       display: flex;
       margin-right: 2rem;
-      
     }
 
     .Pesquisa {
@@ -84,6 +83,19 @@
       input[type="text"]:focus {
         outline: none;
       }
+    }
+  }
+
+  .periodos {
+    display: flex;
+
+
+    .periodosCard {
+      border-radius: 21px;
+      border: 1px solid #000;
+      background: #eaecdd;
+      padding: .5rem;
+      margin-right: .2rem ;
     }
   }
 }

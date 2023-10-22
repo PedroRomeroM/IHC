@@ -11,11 +11,12 @@ export const Card = ({cardName,title,subtitle,info,picture}) => {
         <h2> {title || "Lorem Ipsum"}</h2>
       </div>
       <div className='CardSubtitle'>
-        
+        {subtitle}
       </div>
       <div className='info'>
         <h3>{info || "24 de Agosto, 2023"} </h3>
-        <img src="./images/dieval.jpg"></img>
+        {picture ? <img src="./images/dieval.jpg"></img> : <> </>}
+        
       </div>
     </div>
   

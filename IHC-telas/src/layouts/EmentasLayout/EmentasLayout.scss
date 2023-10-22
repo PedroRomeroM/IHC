@@ -1,5 +1,5 @@
 
-.Challenges {
+.EMENTA {
     background-color: #eaecdd;
     height: 100%;
     padding: 0 5rem;
@@ -16,5 +16,11 @@
         display: flex;
         justify-content: space-around;
         margin-bottom: 5rem;
+        flex-direction: column;
+
+        .cardsRow {
+            display: flex;
+            margin-top: 3rem;
+        }
     }
 }
